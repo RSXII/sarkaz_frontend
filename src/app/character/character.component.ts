@@ -12,7 +12,7 @@ export class CharacterComponent {
 
   constructor(httpClient: HttpClient) {
     httpClient
-      .get('https://sarkazapi1-0-1-sjpa6flr6q-uc.a.run.app/api/characters/dusk')
+      .get('https://api.sarkaz.site/characters/dusk')
       .subscribe((data) => {
         this.character = data as Character;
         console.log(data);
