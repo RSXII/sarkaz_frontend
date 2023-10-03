@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Character } from './character.model';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-character',
